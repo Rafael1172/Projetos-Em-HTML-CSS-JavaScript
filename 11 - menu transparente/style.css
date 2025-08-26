@@ -58,6 +58,10 @@
 
 /* teste dropdown */
 
+.dropdown{
+    padding-top: 20px;
+}
+
 .dropdown-menu{
     position: absolute;
     box-shadow: 0 0 2px black;
@@ -94,7 +98,9 @@ html{
 
 header{
     width: 100%;
-    padding: 60px 4%;
+    padding: 40px 4%;
+    padding-bottom: 10px;
+    background-color: purple;
     position: fixed;
     top: 0;
     left: 0;
@@ -103,7 +109,7 @@ header{
 
 header.rolagem{
     background-color: #ff0000;
-    padding: 20px 4%;
+    padding: 30px 4%;
 }
 
 header.rolagem a, header.rolagem i{
@@ -137,24 +143,4 @@ header ul li a{
     color: #fff;
     cursor: pointer;
     transition: .2s;
-}
-
-.banner{
-    height: 100vh;
-    background-image: url(imagens/banner.jpg);
-    background-position: 100% 0;
-    background-repeat: no-repeat;
-    background-size: cover;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.banner h1{
-    font-size: 4em;
-}
-
-.banner h1 span{
-    color: #FFAE81;
 }
