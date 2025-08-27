@@ -131,12 +131,10 @@
   position: absolute;
   z-index: 1;
   top: 60px;
-  left: 50%;
-  display: grid;
-  width: 110%;
+  display: flex;
+  width: 392%;
   padding:6px;
   border-radius: 6px;
-  translate: -50% 0;
   visibility: hidden;
   opacity: 0;
   scale: 0.85;
@@ -168,10 +166,6 @@ p{
 .dropdown > .menu > a:hover {
   background: rgb(96, 96, 96);
   border-radius: 5px;
-}
-
-.dropdown > .menu > a > span {
-  font-size: 20px;
 }
 
 
